@@ -15,10 +15,10 @@
 <!--Шапка сайта, задается этим тегом-->
 <header>
     <div class="logo">
-        <a href="Index.html"><img class="graficlogo" src="img/Logo1.png" width="100" height="100" alt="Logo"></a>
+        <a href="index.php"><img class="graficlogo" src="img/Logo1.png" width="100" height="100" alt="Logo"></a>
     </div>
     <nav><div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <a href="projects.html">Projects</a>
             <a href="blog.html">Blog</a>
             <a href="contact.html">Contacts</a>
@@ -31,26 +31,8 @@
     </nav>
 </header>
 
-<!--Подвальчик-->
-
-<footer>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contacts</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="location.html">Location</a>
 
 
-    </nav>
-    <div class="logo">
-        <a href="Index.html"><img class="graficlogo" src="img/Logo1.png"width="100" height="100" alt="Logo"></a>
-    </div>
-    <p>ALexey Made Buy</p>
-
-</footer>
 
 <script src="js/Script.js"></script>
 </body>

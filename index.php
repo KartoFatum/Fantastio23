@@ -1,3 +1,8 @@
+<?php
+error_reporting(-1);
+require_once __DIR__ . '/registration/db.php';
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,26 +17,32 @@
 </head>
 <body>
 
-<!--Шапка сайта, задается этим тегом-->
-<header>
-    <div class="logo">
-        <a href="Index.html"><img class="graficlogo" src="img/Logo1.png" width="100" height="100" alt="Logo"></a>
-    </div>
-    <nav><div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contacts</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="about.php">Location</a>
-            <a href="registration/registration.php" >Registration </a>
-            <a href="registration/login.php" >Login </a>
-            <a id="menu" href="#" class="icon">&#9776</a>
+<?Php require "blocks/header.php"?>
 
-        </div>
-    </nav>
-</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--Нечто уникальное основное-->
 
@@ -84,27 +95,32 @@
                 <h1>МуLIFE YOU KNOW</h1>
                 <p>C помощью этого онлайн-генератора рыботекста можно пачками плодить как отдельные предложения и заголовки, так и целые абзацы отменнейшего рыбы-текста. А для любителей автоматизации даже реализован</p>
             </div>
+
+            <div class="product-card">
+                <div class="advantages_item">
+                    <div class="offer-hit">Hit</div>
+                    <div class="offer-sale">Sale</div>
+                </div>
+                <div class="advantages_item">
+                    <a href="product.html"><img src="img/1077041.png" alt=""></a>
+                </div>
+                <div class="advantages_item">
+                    <div class="card-title">
+                        <a href="product.html">Кружка непроливайка</a>
+                    </div>
+                    <div class="advantages_item">
+                        <del>2301023 Руб.</del>
+                        312 руб.
+                    </div>
+                    <button type="button" class="btn btn-info btn-block card-addtocart">
+                        <i class="fas fa-cart-arrow-down"></i> Купить
+                    </button>
+                    <div class="item-status"><i class="fas fa-check text-success"></i> В наличии</div>
+                </div>
         </div>
     </div>
 </main>
-<footer>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contacts</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="about.php">Location</a>
-
-
-
-    </nav>
-    <div class="logo">
-        <a href="Index.html"><img class="graficlogo" src="img/Logo1.png"width="100" height="100" alt="Logo"></a>
-    </div>
-    <p>ALexey Made Buy</p>
-</footer>
+<?Php require "blocks/footer.php"?>
 
 
 
