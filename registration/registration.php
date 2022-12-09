@@ -8,7 +8,11 @@
     <title>Document</title>
 </head>
 <body>
+<?require_once "../blocks/header.php"?>
 <form action="../registration/usercontroller.php" method="post">
+
+    <h1 style="text-align: center">
+
     <div>
         <label for="name">Введите Имя</label>
     </div>
@@ -24,8 +28,11 @@
     <div>
         <input type="submit">
     </div>
-</form>
+        <br>
+    </h1>
 
+</form>
+<?require_once "../blocks/footer.php"?>
 
 
 </body>

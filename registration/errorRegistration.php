@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h2>При добавлении пользователя чтото пошло не так</h2>
+<h2 style="text-align: center">При добавлении пользователя чтото пошло не так</h2>
 </body>
 </html>

@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Логин противный</h1>
+<h1 style="text-align: center">Логин противный</h1>
 </body>
 </html>

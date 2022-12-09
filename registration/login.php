@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+<?require_once "../blocks/header.php"?>
 <form action="../registration/usercontroller.php" method="post">
+    <h1 style="text-align: center">
     <div>
         <label for="login">Введите логин пожалуйста</label>
     </div>
@@ -20,6 +22,8 @@
     <div>
         <input type="submit">
     </div>
+    </h1>
+<?require_once "../blocks/footer.php"?>
 </form>
 </body>
 </html>

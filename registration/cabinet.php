@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Привет дорогой друг <?=$user['name'];?></h1>
-<a href="/"><h2>На главную</h2></a>
+<?require_once "../blocks/header.php"?>
+<h1 style="text-align: center">Привет дорогой друг <?=$user['name'];?></h1>
+<h2 style="text-align: center"><a href="/"><h2>На главную</h2></a></h2>
+<?require_once "../blocks/footer.php"?>
 </body>
 </html>

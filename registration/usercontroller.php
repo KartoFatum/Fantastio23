@@ -23,7 +23,7 @@ if (isset($_SESSION['user']) and isset($_POST['logout'])){
         }else{
 
             $user['name']=$result;
-            require_once ("index.php");
+            require_once ("cabinet.php");
         }
     }
 }

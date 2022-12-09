@@ -3,7 +3,7 @@
 class db
 {
 public static function dbConnection(){
-    $db=mysqli_connect('localhost','root','root','shop');
+    $db=mysqli_connect('localhost','root','','shop');
     return $db;
 }
 }

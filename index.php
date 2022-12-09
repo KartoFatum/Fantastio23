@@ -13,28 +13,8 @@
 <body>
 
 <!--Шапка сайта, задается этим тегом-->
-<header>
-    <div class="logo">
-        <a href="Index.html"><img class="graficlogo" src="img/Logo1.png" width="100" height="100" alt="Logo"></a>
-    </div>
-    <nav><div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contacts</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="about.php">Location</a>
-            <a href="registration/registration.php" >Registration </a>
-            <a href="registration/login.php" >Login </a>
-            <a id="menu" href="#" class="icon">&#9776</a>
-
-        </div>
-    </nav>
-</header>
-
+<?require_once "blocks/header.php"?>
 <!--Нечто уникальное основное-->
-
 <main>
     <img src="img/cyan.png" alt="" class="center-img" >
     <div class="advantages_container">
@@ -87,24 +67,7 @@
         </div>
     </div>
 </main>
-<footer>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contacts</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="about.php">Location</a>
-
-
-
-    </nav>
-    <div class="logo">
-        <a href="Index.html"><img class="graficlogo" src="img/Logo1.png"width="100" height="100" alt="Logo"></a>
-    </div>
-    <p>ALexey Made Buy</p>
-</footer>
+<?require_once "blocks/footer.php"?>
 
 
 
